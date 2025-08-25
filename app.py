@@ -9,15 +9,15 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'rlheak5@gmail.com'
-app.config['MAIL_PASSWORD'] = 'bbfk pywq evds ltjz'
+app.config['MAIL_USERNAME'] = 'mouyleangpo51@gmail.com'
+app.config['MAIL_PASSWORD'] = 'qcfv sfas btlf vcyt'
 
 mail = Mail(app)
 
 def send_order_to_telegram(message):
 
-    token = "7379910941:AAG46gx47GAa9Z_x8ZUGRd1WFQkKyYeN6P4"
-    chat_id = "797249972"
+    token = "8195624024:AAG7VSIOQay3QT4dpQsc3gcE_GCX10llvy0"
+    chat_id = "1723183962"
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {
         "chat_id": chat_id,
